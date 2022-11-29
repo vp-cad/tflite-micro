@@ -752,7 +752,7 @@ TF_LITE_MICRO_TESTS_BEGIN
 
 // TODO(b/230666079) enable below tests for xtensa when the xtensa
 // kernel is reconciled with reference kernel
-#if !defined(XTENSA)
+#if 1 //!defined(XTENSA)
 
 // Ensures that a regular set and get pair works ok.
 TF_LITE_MICRO_TEST(TestOneFullyQuantizedLSTM) {
